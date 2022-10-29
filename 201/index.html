@@ -16,10 +16,13 @@
   <body>
     <header>
       <h1>Let's Learn</h1>
-      <p>This is a paragraph. Used to hold bodes of text.</p>
-        <ul>
-          <li> style="color: rgb:32, 200, 44"</li>
-        </ul>
+      <p>Please answer the series of questions prior to proceeding.</p>
+      <ul>
+        <li style="color: rgb(22, 169, 238)">What is your name?</li>
+        <li style="color: rgb(22, 169, 238)">How old are you?</li>
+        <li style="color: rgb(22, 169, 238)">Do you Accept the terms and conditions?</li>
+        <li style="color: rgb(22, 169, 238)">Are you ready to proceed?</li>
+      </ul>
 <script>
 // Ask user name
 let userName = prompt('What is your name?');
@@ -32,57 +35,26 @@ alert('Verify you are ' + userAge);
 // Ask for T&C acceptance
 let userTerms = prompt('Accept or deny the Terms and Conditions.');
 console.log('I certify that I read the T&C document', + userTerms);
-alert('Do you, ' + userName + 'to the T&Cs?' + userTerms);
+alert('Did you read the T&Cs? ' + userTerms);
 // User agreement
-let userAgree = prompt('How old are you?');
-console.log('Age entered is', + userAgree);
-alert('Verify you are ' + userAgree);
+let userAgree = prompt('Would you like to continue?');
+console.log(userAgree) + ' is my answer';
+alert('Your respones is: ' + userAgree);
 
-
+alert(
+        "Hi there, " +
+          userName +
+          ". " +
+          "You are, " +
+          userAge +
+          " years old."
+      );
 
 </script>
-
     </header>
-   
-    <main>
-      <script>getPartyName()</script> 
-      <script>getReservationTime()</script> 
-      <script>getMessage()</script> 
-      <script>getRating()</script> 
-      <section>
-        <img id="hero"  src="images/photo1.png" alt="Food photo" />
-        <p>
-          I'm baby meggings lomo artisan, tote bag microdosing paleo aesthetic
-          letterpress cliche hella. Neutra literally actually street art.
-          Skateboard photo booth activated charcoal, whatever four loko
-          shoreditch umami gentrify woke paleo semiotics try-hard direct trade
-          flannel.
-        </p>
-      </section>
-      <section class="lowerPics">
-        <img src="images/photo2.png" alt="Food photo" />
-        <p>
-          I'm baby meggings lomo artisan, tote bag microdosing paleo aesthetic
-          letterpress cliche hella. Neutra literally actually street art.
-        </p>
-      </section>
-      <section class="lowerPics">
-        <img src="images/photo3.png" alt="Food photo" />
-        <p>
-          I'm baby meggings lomo artisan, tote bag microdosing paleo aesthetic
-          letterpress cliche hella. Neutra literally actually street art.
-        </p>
-      </section>
-      <section class="lowerPics">
-        <img src="images/photo4.png" alt="Food photo" />
-        <p>
-          I'm baby meggings lomo artisan, tote bag microdosing paleo aesthetic
-          letterpress cliche hella. Neutra literally actually street art.
-        </p>
-      </section>
-    </main>
     <footer>
-      <p>&copy; 2022 The JS Cafe</p>
+      <script src="https://gist.github.com/cah-beth-rissman/69eb5dc8853dc609426ffa811d89b975.js"></script>
+      <p>&copy; 2022 Gist Demo</p>
     </footer>
   </body>
 </html>
