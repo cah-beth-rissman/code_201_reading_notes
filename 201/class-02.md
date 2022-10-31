@@ -32,10 +32,10 @@
 * What data type is a sequence of text enclosed in single quote marks?
     * String
 * List 4 types of JavaScript operators.
-    * Assignment = assigns a value to a variable.
-    * Strict equality === performs a tewst to see if two values are equal. It returns a true/false (Boolean) result.
-    * Not, Does not equal !, !== Returns the logically opposite value of what it precedes. It turns a true into a false.
-    * Additional + Add two numbers together or combine two strings.
+    * Assignment `=` assigns a value to a variable.
+    * Strict equality `===` performs a tewst to see if two values are equal. It returns a true/false (Boolean) result.
+    * Not, Does not equal `!`, `!==` Returns the logically opposite value of what it precedes. It turns a true into a false.
+    * Additional `+` Add two numbers together or combine two strings.
 * Describe a real world Problem you could solve with a Function.
     * Alert when home thermometer reaches a specified temperature.
 
@@ -46,10 +46,10 @@
 * What is the use of an else if?
     * Allows user to create a chain of if statements
 * List 3 different types of comparison operators.
-    * Equal (==)
-    * Not equal (!=)
-    * Strict equal (===)
-* What is the difference between the logical operator && and ||?
+    * Equal `==`
+    * Not equal `!=`
+    * Strict equal `===`
+* What is the difference between the logical operator `&&` and `||`?
     * Returns expr1 if it can be converted to false; otherwise, returns expr2. Thus, when used with Boolean values, && returns true if both operands are true; otherwise, returns false.
     * Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, || returns true if either operand is true; if both are false, returns false.
 
