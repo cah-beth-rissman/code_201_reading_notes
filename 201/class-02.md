@@ -9,9 +9,9 @@
     * Semantic elements describe the meaning in both a human and machine readable way. Both the purpose and the type of content.
 * How many levels of headings are there in HTML?
     * Six levels of headings are defined (H1-H6)
-* What are some uses for the '"<sup>" and "<sub>" elements?
+* What are some uses for the `<sup>` and `<sub>` elements?
     * Uses include, exponents, dates, formulas
-* When using the "<abbr>" element, what attribute must be added to provide the full expansion of the term?
+* When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
     * Plain text on first use, which infoms users of what the abbreviatio or acronym means.
 
 ## Learn CSS
