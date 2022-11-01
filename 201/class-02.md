@@ -54,3 +54,4 @@
     * Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, || returns true if either operand is true; if both are false, returns false.
 
 ## Things I need to know more about
+* shift + command + . to see hidden files on a Mac file finder
