@@ -12,17 +12,24 @@
 ### [The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
 * Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”?
+  * 
 * List and describe the four parts of an HTML elements box as referred to by the box model.
+  * margin
+  * border
+  * padding
+  * Remember MBR (man bear pig)
 
 ## Learn JS
 ### Arrays. Operators and Expressions. Conditionals. Loops.
 
 * What data types can you store inside of an Array?
+  * 
 * Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
-
+    *
 > const people = [['pete', 32, 'librarian', null], ['Smith', 40, 'accountant', 'fishing:hiking:rock_climbing'], ['bill', null, 'artist', null]];
 
 * List five shorthand operators for assignment in javascript and describe what they do.
+  * 
 * Read the code below and evaluate the last expression and explain what the result would be and why.
 
  >let a = 10;
@@ -33,6 +40,15 @@
  >(a + c) + b;
 
 * Describe a real world example of when a conditional statement should be used in a JavaScript program.
+  * 
 * Give an example of when a Loop is useful in JavaScript.
+  * When iterating over an array
+  * a for loop
+  * while and do...while loop
 
 ## Things I want to know more about
+* New ideas
+  * trim()
+  * includes()
+  * global variables
+  * short circuiting
